@@ -17,3 +17,4 @@ export type Blog = {
   tags?: string[];
   publishedAt?: string;
 };
+
