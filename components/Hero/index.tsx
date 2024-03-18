@@ -16,19 +16,20 @@ const Hero = () => {
           <div className="flex lg:items-center lg:gap-8 xl:gap-32.5">
             <div className=" md:w-1/2">
               <h4 className="mb-4.5 text-lg font-medium text-black dark:text-white">
-             🔥 Welcome to Our Digital Playground
+              Empower Your Business with Expert Software Solution 🌳
               </h4>
-              <h1 className="mb-5 pr-16 text-3xl font-bold text-black dark:text-white xl:text-hero ">
-                Software Agency - Your Gateway to Seamless Digital Experiences. {"   "}
-                {/* <span className="relative inline-block before:absolute before:bottom-2.5 before:left-0 before:-z-1 before:h-3 before:w-full before:bg-titlebg dark:before:bg-titlebgdark ">
-                  SaaS
-                </span> */}
-              </h1>
+              <h3 className="mb-5 pr-16 text-3xl font-bold text-black dark:text-white xl:text-hero ">
+                Hire Top-Tier 🚀 Developers to Build Your Dream {"   "}
+                <span className="relative inline-block before:absolute before:bottom-2.5 before:left-0 before:-z-1 before:h-3 before:w-full before:bg-titlebg dark:before:bg-titlebgdark ">
+                  Website or App.
+                </span>
+              </h3>
               <p>
-                Solid Pro - Packed with all the key integrations you need for
-                swift SaaS startup launch, including - Auth, Database, Sanity
-                Blog, Essential Components, Pages and More. Built-winth -
-                Next.js 13, React 18 and TypeScript.
+                Need a powerful website, secure app, or something in between?
+                We've got you covered. Our expert freelance developers build best-in-class web and mobile solutions,
+                from user-friendly interfaces to robust backends and secure databases. We handle everything,
+                so you can focus on running your business.<br></br>
+                <i>Let's chat about your project today!</i>
               </p>
 
               <div className="mt-10">
@@ -49,10 +50,6 @@ const Hero = () => {
                     </button>
                   </div>
                 </form>
-
-                <p className="mt-5 text-black dark:text-white">
-                  Try for free no credit card required.
-                </p>
               </div>
             </div>
 
