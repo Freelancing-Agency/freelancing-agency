@@ -19,10 +19,9 @@ const Hero = () => {
               Empower Your Business with Expert Software Solution 
               </h4>
               <h3 className="mb-5 pr-16 text-1xl font-bold text-black dark:text-white xl:text-hero ">
-                Hire Top-Tier 🚀 Developers to Build Your Dream {"   "}
-                <span className="relative inline-block before:absolute before:bottom-2.5 before:left-0 before:-z-1 before:h-3 before:w-full before:bg-titlebg dark:before:bg-titlebgdark ">
-                  Website or App.
-                </span>
+                Hire Top-Tier 🚀 Developers to Build Your Dream Website or App.{"   "}
+                {/* <span className="relative inline-block before:absolute before:bottom-2.5 before:left-0 before:-z-1 before:h-3 before:w-full before:bg-titlebg dark:before:bg-titlebgdark ">
+                </span> */}
               </h3>
 
               <p>
@@ -83,15 +82,15 @@ const Hero = () => {
 
 
                 <div className=" relative aspect-[700/444] w-full">
-                  <Image
+                  {/* <Image
                     className="shadow-solid-l dark:hidden"
                     src="/images/hero/hero-light.svg"
                     alt="Hero"
                     fill
-                  />
+                  /> */}
                   <Image
-                    className="hidden shadow-solid-l dark:block"
-                    src="/images/hero/hero-dark.svg"
+                    // className="hidden shadow-solid-l dark:block"
+                    src="/images/hero/coder_one.svg"
                     alt="Hero"
                     fill
                   />
@@ -106,4 +105,6 @@ const Hero = () => {
 };
 
 export default Hero;
+
+
 

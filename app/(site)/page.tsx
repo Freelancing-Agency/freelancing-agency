@@ -14,7 +14,7 @@ import Blog from "@/components/Blog";
 import Testimonial from "@/components/Testimonial";
 
 export const metadata: Metadata = {
-  title: "Next.js Starter Template for SaaS Startups - Solid SaaS Boilerplate",
+  title: "Solid - Freelancing Agency",
   description: "This is Home for Solid Pro",
   // other metadata
 };
@@ -23,7 +23,7 @@ export default function Home() {
   return (
     <main>
       <Hero />
-      <Brands />
+      {/* <Brands /> */}
       <Feature />
       <About />
       <FeaturesTab />
@@ -38,3 +38,5 @@ export default function Home() {
     </main>
   );
 }
+
+
