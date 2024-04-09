@@ -16,16 +16,16 @@ const Hero = () => {
           <div className="flex lg:items-center lg:gap-8 xl:gap-32.5">
             <div className=" md:w-1/2">
               <h4 className="mb-4.5 text-lg font-medium text-black dark:text-white">
-              Empower Your Business with Expert Software Solution 
+              Empower Your Business with Expert Software Solution
               </h4>
               <h3 className="mb-5 pr-16 text-1xl font-bold text-black dark:text-white xl:text-hero ">
-                Hire Top-Tier 🚀 Developers to Build Your Dream Website or App.{"   "}
+                Digitalize ⚡ your Business with Advance Solutions.{"   "}
                 {/* <span className="relative inline-block before:absolute before:bottom-2.5 before:left-0 before:-z-1 before:h-3 before:w-full before:bg-titlebg dark:before:bg-titlebgdark ">
                 </span> */}
               </h3>
 
               <p>
-              Crafting Your Digital Dreams : Websites, Apps, and Games Tailored to Perfection
+              We provide services related to Web App cloud and AI
               </p>
               {/* <p>
                 Need a powerful website, secure app, or something in between?
