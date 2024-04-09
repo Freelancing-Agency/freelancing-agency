@@ -16,7 +16,7 @@ const Hero = () => {
           <div className="flex lg:items-center lg:gap-8 xl:gap-32.5">
             <div className=" md:w-1/2">
               <h4 className="mb-4.5 text-lg font-medium text-black dark:text-white">
-              Empower Your Business with Expert Software Solution
+              Empower Your Business with Expert Software Solutions
               </h4>
               <h3 className="mb-5 pr-16 text-1xl font-bold text-black dark:text-white xl:text-hero ">
                 Digitalize ⚡ your Business with Advance Solutions.{"   "}
@@ -82,15 +82,15 @@ const Hero = () => {
 
 
                 <div className=" relative aspect-[700/444] w-full">
-                  {/* <Image
+                  <Image
                     className="shadow-solid-l dark:hidden"
                     src="/images/hero/hero-light.svg"
                     alt="Hero"
                     fill
-                  /> */}
+                  />
                   <Image
                     // className="hidden shadow-solid-l dark:block"
-                    src="/images/hero/coder_one.svg"
+                    src="/images/hero/coder.svg"
                     alt="Hero"
                     fill
                   />
