@@ -25,7 +25,7 @@ const Hero = () => {
               </h3>
 
               <p>
-              We provide services related to Web App cloud and AI
+              We provide services related to Web , App cloud and AI
               </p>
               {/* <p>
                 Need a powerful website, secure app, or something in between?
