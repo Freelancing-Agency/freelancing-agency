@@ -25,7 +25,7 @@ const Hero = () => {
               </h3>
 
               <p>
-              We provide services related to Web , App cloud and AI
+              We provide services related to Web, App, cloud and AI
               </p>
               {/* <p>
                 Need a powerful website, secure app, or something in between?
@@ -82,12 +82,12 @@ const Hero = () => {
 
 
                 <div className=" relative aspect-[700/444] w-full">
-                  <Image
+                  {/* <Image
                     className="shadow-solid-l dark:hidden"
                     src="/images/hero/hero-light.svg"
                     alt="Hero"
                     fill
-                  />
+                  /> */}
                   <Image
                     // className="hidden shadow-solid-l dark:block"
                     src="/images/hero/coder.svg"
