@@ -14,7 +14,7 @@ const Feature = () => {
           <SectionHeader
             headerInfo={{
               title: "OUR SERVICES",
-              subtitle: "Services Provide By Us",
+              subtitle: "Services Provided By Us",
               description: `Comprehensive Solutions for Web/App, AI, and Cloud Service to Elevate Your Digital Presence.`,
             }}
           />
