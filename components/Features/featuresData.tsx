@@ -5,6 +5,7 @@ const featuresData: Feature[] = [
     id: 1,
     icon: "/images/icon/icon-05.svg",
     title: "Web/App Services",
+    url:"/web",
     description:
       "Need a stunning website or a cutting-edge mobile app? Look no further! Our expert team crafts tailor-made solutions to elevate your online presence and drive success for your business.",
   },
@@ -12,6 +13,7 @@ const featuresData: Feature[] = [
     id: 2,
     icon: "/images/icon/icon-03.svg",
     title: "AI Services",
+    url:"/ai",
     description:
       "Revolutionize your business with AI, From chatbots to AI-powered tools and insightful blogs, we offer innovative solutions to enhance efficiency and engage your audience like never before.",
   },
@@ -19,6 +21,7 @@ const featuresData: Feature[] = [
     id: 3,
     icon: "/images/icon/icon-02.svg",
     title: "Cloud Services",
+    url:"/cloud",
     description:
       "Take your business to the cloud, From seamless hosting to effortless domain connection. We provide reliable cloud solutions to keep your operations running smoothly.",
   },
