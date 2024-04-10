@@ -3,7 +3,7 @@ import p2 from "../../public/images/projects/p2.png"
 import p3 from "../../public/images/projects/p3.png"
 import p4 from "../../public/images/projects/p4.png"
 import p5 from "../../public/images/projects/p5.png"
-// import p6 from "../../public/images/projects/rk.png"
+import p6 from "../../public/images/projects/p6.png"
 
 import { Testimonial } from "@/types/testimonial";
 
@@ -48,5 +48,14 @@ export const ProjectsData: Testimonial[] = [
     content:
       "Codestrick : Developed a website providing tech-related blogs and coding resources. It caters to those interested in learning about coding and exploring the world of technology.",
   },
+  {
+    id: 6,
+    name: "JUST QUOTES",
+    designation: "AI Quotes and Image Generator",
+    image: p6,
+    content:
+      "Just Quotes : Created a website featuring AI-powered generation of inspirational quotes and accompanying images. This innovative platform provides users with a unique source of motivation.",
+  },
 ];
+
 

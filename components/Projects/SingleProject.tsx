@@ -20,3 +20,5 @@ const SingleProject = ({ review }: { review: Testimonial }) => {
 };
 
 export default SingleProject;
+
+
