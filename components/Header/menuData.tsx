@@ -15,13 +15,13 @@ const menuData: Menu[] = [
     submenu: [
       {
         id: 31,
-        title: "Web services",
+        title: "Web Services",
         newTab: false,
         path: "/web",
       },
       {
         id: 35,
-        title: "App services",
+        title: "App Services",
         newTab: false,
         path: "/app",
       },
@@ -33,7 +33,7 @@ const menuData: Menu[] = [
       },
       {
         id: 36,
-        title: "Cloud services",
+        title: "Cloud Services",
         newTab: false,
         path: "/cloud",
       },

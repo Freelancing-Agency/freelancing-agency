@@ -46,17 +46,17 @@ const Footer = () => {
                 </a>
 
                 <p className="mb-10 mt-5">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                We provide services related to Web, App, cloud and AI
                 </p>
 
                 <p className="mb-1.5 text-sectiontitle uppercase tracking-[5px]">
                   contact
                 </p>
                 <a
-                  href="#"
+                  href="mailto:contact@opemic.com"
                   className="text-itemtitle font-medium text-black dark:text-white"
                 >
-                  hello@solid.com
+                  contact@opemic.com
                 </a>
               </motion.div>
 
@@ -97,7 +97,15 @@ const Footer = () => {
                         href="#"
                         className="mb-3 inline-block hover:text-primary"
                       >
-                        Product
+                       About Us
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        href="#"
+                        className="mb-3 inline-block hover:text-primary"
+                      >
+                        Services
                       </a>
                     </li>
                     <li>
@@ -106,14 +114,6 @@ const Footer = () => {
                         className="mb-3 inline-block hover:text-primary"
                       >
                         Careers
-                      </a>
-                    </li>
-                    <li>
-                      <a
-                        href="#"
-                        className="mb-3 inline-block hover:text-primary"
-                      >
-                        Pricing
                       </a>
                     </li>
                   </ul>
@@ -266,7 +266,7 @@ const Footer = () => {
               <ul className="flex items-center gap-8">
                 <li>
                   <a href="#" className="hover:text-primary">
-                    English
+                  Support
                   </a>
                 </li>
                 <li>
@@ -276,7 +276,7 @@ const Footer = () => {
                 </li>
                 <li>
                   <a href="#" className="hover:text-primary">
-                    Support
+                    Disclaimer
                   </a>
                 </li>
               </ul>
@@ -301,7 +301,7 @@ const Footer = () => {
               className="animate_top"
             >
               <p>
-                &copy; {new Date().getFullYear()} Solid. All rights reserved
+                copyright &copy; {new Date().getFullYear()} Opemic. All rights reserved
               </p>
             </motion.div>
 

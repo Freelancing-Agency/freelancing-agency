@@ -68,7 +68,7 @@ const Projects = () => {
                 },
                 // when window width is >= 768px
                 768: {
-                  slidesPerView: 2,
+                  slidesPerView: 3,
                 },
               }}
             >
