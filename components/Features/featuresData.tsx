@@ -4,23 +4,23 @@ const featuresData: Feature[] = [
   {
     id: 1,
     icon: "/images/icon/icon-05.svg",
-    title: "Website Development",
+    title: "Web/App Services",
     description:
-      "Crafting fully-functional, bespoke websites for small businesses and startups, ensuring a seamless online presence and optimal user experience.",
+      "Need a stunning website or a cutting-edge mobile app? Look no further! Our expert team crafts tailor-made solutions to elevate your online presence and drive success for your business.",
   },
   {
     id: 2,
     icon: "/images/icon/icon-03.svg",
-    title: "App Development",
+    title: "AI Services",
     description:
-      "Building native Android applications tailored to the unique needs of small businesses and startups, enhancing engagement and functionality for users on the go.",
+      "Revolutionize your business with AI, From chatbots to AI-powered tools and insightful blogs, we offer innovative solutions to enhance efficiency and engage your audience like never before.",
   },
   {
     id: 3,
     icon: "/images/icon/icon-02.svg",
-    title: "Game Development",
+    title: "Cloud Services",
     description:
-      "Designing captivating mobile games for small businesses and startups, delivering immersive experiences that captivate audiences and drive engagement.",
+      "Take your business to the cloud, From seamless hosting to effortless domain connection. We provide reliable cloud solutions to keep your operations running smoothly.",
   },
   // {
   //   id: 4,
