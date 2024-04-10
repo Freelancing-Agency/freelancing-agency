@@ -8,8 +8,8 @@ import "swiper/css/pagination";
 import { Swiper, SwiperSlide } from "swiper/react";
 
 import { motion } from "framer-motion";
-import SingleTestimonial from "./SingleTestimonial";
-import { testimonialData } from "./testimonialData";
+import SingleProject from "./SingleProject";
+import { ProjectsData } from "./ProjectData";
 
 const Projects = () => {
   return (
@@ -68,13 +68,13 @@ const Projects = () => {
                 },
                 // when window width is >= 768px
                 768: {
-                  slidesPerView: 2,
+                  slidesPerView: 3,
                 },
               }}
             >
-              {testimonialData.map((review) => (
+              {ProjectsData.map((review) => (
                 <SwiperSlide key={review?.id}>
-                  <SingleTestimonial review={review} />
+                  <SingleProject review={review} />
                 </SwiperSlide>
               ))}
             </Swiper>
