@@ -1,9 +1,9 @@
 export default function Head() {
   return (
     <>
-      <title>Freelancing Agency - Solid </title>
+      <title>Opemic</title>
       <meta content="width=device-width, initial-scale=1" name="viewport" />
-      <meta name="description" content="Built with Next.js and TypeScript" />
+      <meta name="description" content="Digitalize Your business with modern solutions" />
       <link rel="icon" href="/images/favicon.ico" />
     </>
   );

@@ -14,8 +14,9 @@ import Blog from "@/components/Blog";
 import Testimonial from "@/components/Testimonial";
 import Projects from "@/components/Projects";
 export const metadata: Metadata = {
-  title: "Solid - Freelancing Agency",
-  description: "This is Home for Solid Pro",
+  title: "Opemic",
+  description: "Digitalize Your business with modern solutions",
+  icons:"/images/favicon.ico",
   // other metadata
 };
 
