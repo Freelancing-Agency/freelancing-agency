@@ -22,7 +22,7 @@ const Projects = () => {
               headerInfo={{
                 title: `Our Projects`,
                 subtitle: `Latest Projects and Products`,
-                description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. In convallis tortor eros. Donec vitae tortor lacus. Phasellus aliquam ante in maximus.`,
+                description: `Projects Developed for Small Business , Startups and College Clubs`,
               }}
             />
           </div>

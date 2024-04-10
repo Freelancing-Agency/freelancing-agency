@@ -8,7 +8,7 @@ const SingleProject = ({ review }: { review: Testimonial }) => {
       <div className="mb-7 flex align-middle justify-center border-b border-stroke pb-6 dark:border-strokedark ">
         <div className="">
           <Image width={400} height={400} className=" self-center rounded-md" src={image} alt={name} />
-          <h3 className="mb-1 text-metatitle3 text-black dark:text-white pt-1">
+          <h3 className="mb-1 text-metatitle3 text-black dark:text-white pt-2">
             {name}
           </h3>
           <p>{designation}</p>
