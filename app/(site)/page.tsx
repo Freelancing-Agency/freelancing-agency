@@ -12,7 +12,7 @@ import Pricing from "@/components/Pricing";
 import Contact from "@/components/Contact";
 import Blog from "@/components/Blog";
 import Testimonial from "@/components/Testimonial";
-
+import Projects from "@/components/Projects";
 export const metadata: Metadata = {
   title: "Solid - Freelancing Agency",
   description: "This is Home for Solid Pro",
@@ -25,6 +25,7 @@ export default function Home() {
       <Hero />
       {/* <Brands /> */}
       <Feature />
+      <Projects/>
       <About />
       <FeaturesTab />
       <FunFact />
