@@ -2,19 +2,53 @@
 import { motion } from "framer-motion";
 import Image from "next/image";
 import React from "react";
+import { useForm } from "react-hook-form";
+import { addData } from "@/firebase/firestore";
+import {toast ,Toaster} from "react-hot-toast";
+
+type FormValues = {
+  name: string;
+  email:string;
+  subject:string;
+  phoneno:Number;
+  message:String;
+};
+
 
 const Contact = () => {
-  /**
-   * Source: https://www.joshwcomeau.com/react/the-perils-of-rehydration/
-   * Reason: To fix rehydration error
-   */
-  const [hasMounted, setHasMounted] = React.useState(false);
+  // const [hasMounted, setHasMounted] = React.useState(false);
+  // React.useEffect(() => {
+  //   setHasMounted(true);
+  // }, []);
+  // if (!hasMounted) {
+  //   return null;
+  // }
+
+  const {
+    register,
+    handleSubmit,
+    watch,
+    reset,
+    formState,
+    formState: { isSubmitSuccessful,errors },
+} = useForm<FormValues>();
+
+const onSubmit = async (data: FormValues) => {
+  // console.log(user);
+
+  console.log(data.name);
+  await addData(data.name,data.email,data.subject,data.phoneno,data.message)
+  // toast("we will contact you soon!")
+
+};
   React.useEffect(() => {
-    setHasMounted(true);
-  }, []);
-  if (!hasMounted) {
-    return null;
-  }
+
+    if (formState.isSubmitSuccessful) {
+      reset({ name: '',email:"",subject:"",phoneno:"",message:""});
+    }
+  }, [formState, reset]);
+
+
 
   return (
     <>
@@ -61,20 +95,21 @@ const Contact = () => {
               </h2>
 
               <form
-                action="https://formbold.com/s/unique_form_id"
-                method="POST"
+                onSubmit={handleSubmit(onSubmit)}
               >
                 <div className="mb-7.5 flex flex-col gap-7.5 lg:flex-row lg:justify-between lg:gap-14">
                   <input
                     type="text"
                     placeholder="Full name"
                     className="w-full border-b border-stroke bg-transparent pb-3.5 focus:border-waterloo focus:placeholder:text-black focus-visible:outline-none dark:border-strokedark dark:focus:border-manatee dark:focus:placeholder:text-white lg:w-1/2"
+                    {...register("name", { required: true, maxLength: 280 })}
                   />
 
                   <input
                     type="email"
                     placeholder="Email address"
                     className="w-full border-b border-stroke bg-transparent pb-3.5 focus:border-waterloo focus:placeholder:text-black focus-visible:outline-none dark:border-strokedark dark:focus:border-manatee dark:focus:placeholder:text-white lg:w-1/2"
+                    {...register("email", { required: true, maxLength: 280 })}
                   />
                 </div>
 
@@ -83,12 +118,14 @@ const Contact = () => {
                     type="text"
                     placeholder="Subject"
                     className="w-full border-b border-stroke bg-transparent pb-3.5 focus:border-waterloo focus:placeholder:text-black focus-visible:outline-none dark:border-strokedark dark:focus:border-manatee dark:focus:placeholder:text-white lg:w-1/2"
+                    {...register("subject", { required: true, maxLength: 280 })}
                   />
 
                   <input
-                    type="text"
+                    type="tel"
                     placeholder="Phone number"
                     className="w-full border-b border-stroke bg-transparent pb-3.5 focus:border-waterloo focus:placeholder:text-black focus-visible:outline-none dark:border-strokedark dark:focus:border-manatee dark:focus:placeholder:text-white lg:w-1/2"
+                    {...register("phoneno", { required: true, maxLength: 280 })}
                   />
                 </div>
 
@@ -97,6 +134,7 @@ const Contact = () => {
                     placeholder="Message"
                     rows={4}
                     className="w-full border-b border-stroke bg-transparent focus:border-waterloo focus:placeholder:text-black focus-visible:outline-none dark:border-strokedark dark:focus:border-manatee dark:focus:placeholder:text-white"
+                    {...register("message", { required: true, maxLength: 280 })}
                   ></textarea>
                 </div>
 
@@ -182,14 +220,14 @@ const Contact = () => {
                 <h3 className="mb-4 text-metatitle3 font-medium text-black dark:text-white">
                   Our Loaction
                 </h3>
-                <p>290 Maryam Springs 260, Courbevoie, Paris, France</p>
+                <p>Pune, Maharashtra,<br/> 411002, India</p>
               </div>
               <div className="5 mb-7">
                 <h3 className="mb-4 text-metatitle3 font-medium text-black dark:text-white">
                   Email Address
                 </h3>
                 <p>
-                  <a href="#">yourmail@domainname.com</a>
+                  <a href="mailto:contact@opemic.com">contact@opemic.com</a>
                 </p>
               </div>
               <div>
@@ -197,7 +235,7 @@ const Contact = () => {
                   Phone Number
                 </h4>
                 <p>
-                  <a href="#">+009 42334 6343 843</a>
+                  <a href="#">+91 42336 34383</a>
                 </p>
               </div>
             </motion.div>

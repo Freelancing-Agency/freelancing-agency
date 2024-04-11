@@ -4,6 +4,7 @@ import { Metadata } from "next";
 export const metadata: Metadata = {
   title: "About the AI services",
   description: "This is About the AI services",
+  icons:"/images/favicon.ico",
   // other metadata
 };
 

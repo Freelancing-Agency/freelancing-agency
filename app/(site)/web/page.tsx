@@ -3,8 +3,11 @@ import { Metadata } from "next";
 import Integration from "@/components/Integration";
 
 export const metadata: Metadata = {
-  title: "About the Web Services",
-  description: "This is About the Web Services",
+
+  title: "About the web services",
+  description: "This is About the web services",
+  icons:"/images/favicon.ico",
+
   // other metadata
 };
 

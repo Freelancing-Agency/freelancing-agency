@@ -4,6 +4,7 @@ import { Metadata } from "next";
 export const metadata: Metadata = {
   title: "About the cloud services",
   description: "This is About the cloud services",
+  icons:"/images/favicon.ico",
   // other metadata
 };
 
