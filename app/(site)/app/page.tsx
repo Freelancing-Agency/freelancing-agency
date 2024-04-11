@@ -4,6 +4,7 @@ import { Metadata } from "next";
 export const metadata: Metadata = {
   title: "About the web services",
   description: "This is About the web services",
+  icons:"/images/favicon.ico",
   // other metadata
 };
 
@@ -20,7 +21,6 @@ export default function App() {
                 </ul>
               </div>
             </div> */}
-
             <div className="w-full px-4 lg:w-[100%] ">
               <div className="blog-details blog-details-docs shadow-three dark:bg-gray-dark rounded-sm bg-white px-8 py-11 sm:p-[55px] lg:mb-5 lg:px-8 xl:p-[55px]">
                 <h1>Welcome to About us</h1>

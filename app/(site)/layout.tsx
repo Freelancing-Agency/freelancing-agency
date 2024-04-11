@@ -19,6 +19,7 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <body className={`dark:bg-black ${inter.className}`}>
+        <ToasterContext />
         <ThemeProvider
           enableSystem={false}
           attribute="class"
@@ -26,7 +27,6 @@ export default function RootLayout({
         >
           <Lines />
           <Header />
-          <ToasterContext />
           {children}
           <Footer />
           <ScrollToTop />
