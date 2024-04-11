@@ -9,13 +9,13 @@ const Integration = () => {
       <section>
         <div className="mx-auto max-w-c-1390 px-4 md:px-8 2xl:px-0">
           {/* <!-- Section Title Start --> */}
-          {/* <SectionHeader
+          <SectionHeader
             headerInfo={{
-              title: `INTEGRATIONS`,
-              subtitle: `Remotely Maintain Your Data, From Anywhere, Anytime.`,
-              description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. In convallis tortor eros. Donec vitae tortor lacus. Phasellus aliquam ante in maximus.`,
+              title: `OUR TOOLS`,
+              subtitle: ``,
+              description: ``,
             }}
-          /> */}
+          />
 
           {/* <!-- Section Title End --> */}
         </div>
@@ -61,7 +61,7 @@ const Integration = () => {
                 <Image
                   width={50}
                   height={50}
-                  src="./images/brand/nodejs.svg"
+                  src="./images/brand/react-2.svg"
                   alt="Brand"
                 />
               </div>
@@ -108,7 +108,7 @@ const Integration = () => {
                 <Image
                   width={50}
                   height={50}
-                  src="./images/brand/express.svg"
+                  src="./images/brand/nodejs.svg"
                   alt="Brand"
                 />
               </div>
@@ -203,6 +203,8 @@ const Integration = () => {
               <div className="h-[15px] w-[15px] rounded-full bg-[#62E888]"></div>
             </motion.div>
 
+
+            
             <motion.div
               variants={{
                 hidden: {
@@ -323,11 +325,12 @@ const Integration = () => {
                 <Image
                   width={50}
                   height={50}
-                  src="./images/brand/css.svg"
+                  src="./images/brand/tailwind-css-2.svg"
                   alt="Brand"
                 />
               </div>
             </motion.div>
+
           </div>
         </div>
       </section>

@@ -75,24 +75,26 @@ export default function Web() {
                   <li><b>Databases</b> : Firebase, MongoDB</li>
                   <li><b>Cloud Services</b> : Google Cloud, AWS</li>
                 </ul>
+                <Integration />
+                <br></br>
+                <br></br>
+                <section className="why-choose-us">
+                  <h4>Why Choose Us?</h4>
+                  <br></br>
+                  <ul style={{ listStyleType: 'disc' }}>
+                    <li><b>Proven Track Record</b> : We have a wealth of experience crafting successful websites for small businesses and startups across diverse industries.</li>
+                    <li><b>Unwavering Commitment to Quality</b> : We deliver exceptional results, period. Our team is passionate about creating websites that not only look great but also perform exceptionally well.</li>
+                    <li><b>Client-Centric Approach</b> : We collaborate closely with you throughout the entire development process, ensuring your vision is translated into a website that exceeds expectations.</li>
+                    <li><b>Scalability and Future-Proofing</b> : We build websites with an eye toward the future, ensuring they can adapt and grow alongside your business.</li>
+                    <li><b>Competitive Rates</b> : We offer cost-effective solutions that fit your budget without sacrificing quality.</li>
+                  </ul>
+                </section>
 
-                <Integration/>
+                <p>
+                  With our expertise, dedication, and commitment to excellence, choosing our freelancing agency for your web development needs is a decision you won't regret. Let us help you bring your vision to life and take your online presence to new heights.
+                </p>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+                
 
 
                 {/* <p className="text-body-color dark:text-body-color-dark text-base">
