@@ -1,6 +1,7 @@
 import SidebarLink from "@/components/Docs/SidebarLink";
 import { Metadata } from "next";
 import Integration from "@/components/Integration/app";
+import Contact2 from "@/components/Contact2";
 
 export const metadata: Metadata = {
   title: "About the app services",
@@ -115,6 +116,7 @@ export default function App() {
             </div>
           </div>
         </div>
+        <Contact2/>
       </section>
     </>
   );

@@ -1,6 +1,7 @@
 import SidebarLink from "@/components/Docs/SidebarLink";
 import { Metadata } from "next";
 import Integration from "@/components/Integration/ai";
+import Contact2 from "@/components/Contact2";
 
 export const metadata: Metadata = {
   title: "About the AI services",
@@ -112,6 +113,7 @@ export default function AI() {
             </div>
           </div>
         </div>
+        <Contact2/>
       </section>
     </>
   );

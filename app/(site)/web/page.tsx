@@ -1,7 +1,7 @@
 import SidebarLink from "@/components/Docs/SidebarLink";
 import { Metadata } from "next";
 import Integration from "@/components/Integration";
-
+import Contact2 from "@/components/Contact2";
 export const metadata: Metadata = {
 
   title: "About the web services",
@@ -97,7 +97,7 @@ export default function Web() {
                   With our expertise, dedication, and commitment to excellence, choosing our freelancing agency for your web development needs is a decision you won't regret. Let us help you bring your vision to life and take your online presence to new heights.
                 </p>
 
-                
+
 
 
                 {/* <p className="text-body-color dark:text-body-color-dark text-base">
@@ -114,6 +114,7 @@ export default function Web() {
             </div>
           </div>
         </div>
+                <Contact2/>
       </section>
     </>
   );

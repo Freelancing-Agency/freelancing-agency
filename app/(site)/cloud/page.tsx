@@ -1,6 +1,7 @@
 import SidebarLink from "@/components/Docs/SidebarLink";
 import { Metadata } from "next";
 import Integration from "@/components/Integration/cloud";
+import Contact2 from "@/components/Contact2";
 
 export const metadata: Metadata = {
   title: "About the cloud services",
@@ -105,6 +106,7 @@ export default function Cloud() {
             </div>
           </div>
         </div>
+        <Contact2/>
       </section>
     </>
   );
