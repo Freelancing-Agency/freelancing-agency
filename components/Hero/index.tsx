@@ -16,10 +16,10 @@ const Hero = () => {
           <div className="flex lg:items-center lg:gap-8 xl:gap-32.5">
             <div className=" md:w-1/2">
               <h4 className="mb-4.5 text-lg font-medium text-black dark:text-white">
-              Empower Your Business with Expert Software Solutions
+              Empower Your Business with Expert Software Solutions 
               </h4>
               <h3 className="mb-5 pr-16 text-1xl font-bold text-black dark:text-white xl:text-hero ">
-                Digitalize ⚡ your Business with Advance Solutions.{"   "}
+                Digitalize ⚡ your Business with Advance Solutions{"   "}
                 {/* <span className="relative inline-block before:absolute before:bottom-2.5 before:left-0 before:-z-1 before:h-3 before:w-full before:bg-titlebg dark:before:bg-titlebgdark ">
                 </span> */}
               </h3>

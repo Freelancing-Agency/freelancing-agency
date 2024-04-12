@@ -91,14 +91,6 @@ export default function Cloud() {
                 </p>
 
 
-
-
-
-
-
-
-
-
                 {/* <p className="text-body-color dark:text-body-color-dark text-base">
                   Please visit:{" "}
                   <b>

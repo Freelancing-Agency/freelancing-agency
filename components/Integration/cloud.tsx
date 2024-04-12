@@ -61,7 +61,7 @@ const Integration = () => {
                 <Image
                   width={50}
                   height={50}
-                  src="./images/brand/java.svg"
+                  src="./images/brand/google-cloud.svg"
                   alt="Brand"
                 />
               </div>
@@ -108,7 +108,7 @@ const Integration = () => {
                 <Image
                   width={50}
                   height={50}
-                  src="./images/brand/kotlin-2.svg"
+                  src="./images/brand/aws.svg"
                   alt="Brand"
                 />
               </div>
@@ -227,7 +227,7 @@ const Integration = () => {
                 <Image
                   width={50}
                   height={50}
-                  src="./images/brand/android.svg"
+                  src="./images/brand/azure-2.svg"
                   alt="Brand"
                 />
               </div>
@@ -276,7 +276,7 @@ const Integration = () => {
                 <Image
                   width={50}
                   height={50}
-                  src="./images/brand/react-2.svg"
+                  src="./images/brand/digitalocean.svg"
                   alt="Brand"
                 />
               </div>
@@ -325,7 +325,7 @@ const Integration = () => {
                 <Image
                   width={50}
                   height={50}
-                  src="./images/brand/jetpack.svg"
+                  src="./images/brand/github.svg"
                   alt="Brand"
                 />
               </div>
