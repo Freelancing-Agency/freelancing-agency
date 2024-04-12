@@ -9,7 +9,7 @@ const FunFact = () => {
       {/* <!-- ===== Funfact Start ===== --> */}
       <section className="px-4 py-20 md:px-8 lg:py-22.5 2xl:px-0">
         <div className="relative z-1 mx-auto max-w-c-1390 rounded-lg bg-gradient-to-t from-[#F8F9FF] to-[#DEE7FF] py-22.5 dark:bg-blacksection dark:bg-gradient-to-t dark:from-transparent dark:to-transparent dark:stroke-strokedark xl:py-27.5">
-          <Image
+          {/* <Image
             width={335}
             height={384}
             src="/images/shape/shape-04.png"
@@ -35,7 +35,7 @@ const FunFact = () => {
             src="/images/shape/shape-dotted-dark-02.svg"
             alt="Dotted"
             className="absolute left-0 top-0 -z-1 hidden dark:block"
-          />
+          /> */}
 
           <motion.div
             variants={{
@@ -59,9 +59,7 @@ const FunFact = () => {
               Trusted by Global Companies.
             </h2>
             <p className="mx-auto lg:w-11/12">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. In
-              convallis tortor eros. Donec vitae tortor lacus. Phasellus aliquam
-              ante in maximus.
+              We're honored to be trusted by some of the world's leading companies.  Their success stories are a reflection of our dedication to pushing boundaries and achieving exceptional results.
             </p>
           </motion.div>
 
@@ -85,9 +83,9 @@ const FunFact = () => {
               className="animate_top text-center"
             >
               <h3 className="mb-2.5 text-3xl font-bold text-black dark:text-white xl:text-sectiontitle3">
-                500K
+                25K
               </h3>
-              <p className="text-lg lg:text-para2">World Wide Clients</p>
+              <p className="text-lg lg:text-para2">World Wide Visitors</p>
             </motion.div>
             <motion.div
               variants={{
@@ -108,9 +106,9 @@ const FunFact = () => {
               className="animate_top text-center"
             >
               <h3 className="mb-2.5 text-3xl font-bold text-black dark:text-white xl:text-sectiontitle3">
-                1M+
+                10+
               </h3>
-              <p className="text-lg lg:text-para2">Downloads</p>
+              <p className="text-lg lg:text-para2">Client Projects</p>
             </motion.div>
             <motion.div
               variants={{
@@ -131,9 +129,9 @@ const FunFact = () => {
               className="animate_top text-center"
             >
               <h3 className="mb-2.5 text-3xl font-bold text-black dark:text-white xl:text-sectiontitle3">
-                865
+                50+
               </h3>
-              <p className="text-lg lg:text-para2">Winning Award</p>
+              <p className="text-lg lg:text-para2">Real World Projects</p>
             </motion.div>
           </div>
         </div>
