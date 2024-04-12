@@ -15,7 +15,7 @@ const Hero = () => {
         <div className="mx-auto max-w-c-1390 px-4 md:px-8 2xl:px-0">
           <div className="flex lg:items-center lg:gap-8 xl:gap-32.5">
             <div className=" md:w-1/2">
-              <h4 className="mb-4.5 text-lg font-medium text-black dark:text-white ">
+              <h4 className="mb-4.5 text-lg font-medium text-black dark:text-white">
               Empower Your Business with Expert Software Solutions
               </h4>
               <h3 className="mb-5 pr-16 text-4xl font-bold text-black dark:text-white xl:text-hero">
@@ -90,7 +90,7 @@ const Hero = () => {
                   /> */}
                   <Image
                     // className="hidden shadow-solid-l dark:block"
-                    src="/images/hero/coder.svg"
+                    src="/images/hero/opemic.svg"
                     alt="Hero"
                     fill
                   />
@@ -105,6 +105,4 @@ const Hero = () => {
 };
 
 export default Hero;
-
-
 

@@ -32,9 +32,7 @@ const CTA = () => {
                 Join Us Today & Digitalize Your business!
               </h2>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. In
-                convallis tortor eros. Donec vitae tortor lacus. Phasellus
-                aliquam ante in maximus.
+                We offer exceptional website, app, AI, and cloud solutions. Our expert freelancers are here to help you thrive online.
               </p>
             </motion.div>
             <motion.div
