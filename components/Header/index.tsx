@@ -39,14 +39,14 @@ const Header = () => {
         <div className="flex w-full items-center justify-between xl:w-1/4">
           <a href="/">
             <Image
-              src="/images/logo/logo_w.png"
+              src="/images/logo/logo-dark.svg"
               alt="logo"
               width={150}
               height={50}
               className="hidden dark:block w-50"
             />
             <Image
-              src="/images/logo/logo_b.png"
+              src="/images/logo/logo-light.svg"
               alt="logo"
               width={150}
               height={50}
