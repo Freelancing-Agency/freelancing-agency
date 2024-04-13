@@ -1,6 +1,12 @@
 import SidebarLink from "@/components/Docs/SidebarLink";
 import { Metadata } from "next";
 
+export const metadata: Metadata = {
+  title: "about",
+  description: "This is About page of Opemic.",
+  icons: "/images/favicon.ico",
+  // other metadata
+};
 
 export default function DocsPage() {
   return (

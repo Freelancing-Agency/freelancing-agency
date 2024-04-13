@@ -3,6 +3,12 @@ import { Metadata } from "next";
 import Integration from "@/components/Integration";
 import Contact2 from "@/components/Contact2";
 
+export const metadata: Metadata = {
+  title: "Web Services",
+  description: "This is About the Opemic Web services",
+  icons: "/images/favicon.ico",
+  // other metadata
+};
 
 export default function Web() {
   return (

@@ -3,8 +3,9 @@ import Contact from "@/components/Contact";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Support Page - Solid SaaS Boilerplate",
-  description: "This is Support page for Solid Pro",
+  title: "Contact",
+  description: "Contact us now!",
+  icons: "/images/favicon.ico",
   // other metadata
 };
 
