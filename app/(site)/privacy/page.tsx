@@ -1,0 +1,54 @@
+import SidebarLink from "@/components/Docs/SidebarLink";
+import { Metadata } from "next";
+import Integration from "@/components/Integration/ai";
+import Contact2 from "@/components/Contact2";
+
+export const metadata: Metadata = {
+  title: "Privacy Policy",
+  description: "This is About the Opemic Privacy Policy",
+  icons: "/images/favicon.ico",
+  // other metadata
+};
+
+export default function Privacy() {
+  return (
+    <>
+      <section className="pb-16 pt-24 md:pb-20 md:pt-28 lg:pb-24 lg:pt-32">
+        <div className="container mx-auto ">
+          <div className=" flex flex-wrap ">
+            {/* <div className="w-full px-4 lg:w-1/4">
+              <div className="sticky top-[74px] rounded-lg border border-white p-4 shadow-solid-4  transition-all  dark:border-strokedark dark:bg-blacksection">
+                <ul className="space-y-2">
+                  <SidebarLink />
+                </ul>
+              </div>
+            </div> */}
+
+            <div className="w-full px-4 lg:w-[100%] ">
+              <div className="blog-details blog-details-docs shadow-three dark:bg-gray-dark rounded-sm bg-white px-8 py-11 sm:p-[55px] lg:mb-5 lg:px-8 xl:p-[55px]">
+                <h1>Privacy Policy</h1>
+
+                <p className="text-body-color dark:text-body-color-dark text-base">
+                 Opemic Privacy Policy
+                </p>
+
+
+                {/* <p className="text-body-color dark:text-body-color-dark text-base">
+                  Please visit:{" "}
+                  <b>
+                    <a href="https://nextjstemplates.com/docs">
+                      nextjstemplates.com/docs
+                    </a>
+                  </b>{" "}
+                  to check out the real docs, setup guide and even video
+                  instructions
+                </p> */}
+              </div>
+            </div>
+          </div>
+        </div>
+        <Contact2/>
+      </section>
+    </>
+  );
+}
