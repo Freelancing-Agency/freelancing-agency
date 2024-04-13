@@ -33,7 +33,7 @@ const menuData: Menu[] = [
       },
       {
         id: 35.1,
-        title: "AI Integration",
+        title: "AI Services",
         newTab: false,
         path: "/ai",
       },
@@ -101,8 +101,10 @@ const menuData: Menu[] = [
     id: 4,
     title: "Support",
     newTab: false,
-    path: "/support",
+    path: "/contact",
   },
 ];
 
 export default menuData;
+
+
