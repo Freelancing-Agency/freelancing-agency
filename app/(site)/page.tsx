@@ -17,7 +17,6 @@ export const metadata: Metadata = {
   title: "Opemic",
   description: "Digitalize Your business with modern solutions",
   icons:"/images/favicon.ico",
-  // other metadata
 };
 
 export default function Home() {

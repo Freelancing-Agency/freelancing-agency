@@ -2,14 +2,7 @@ import SidebarLink from "@/components/Docs/SidebarLink";
 import { Metadata } from "next";
 import Integration from "@/components/Integration";
 import Contact2 from "@/components/Contact2";
-export const metadata: Metadata = {
 
-  title: "About the web services",
-  description: "This is About the web services",
-  icons:"/images/favicon.ico",
-
-  // other metadata
-};
 
 export default function Web() {
   return (
