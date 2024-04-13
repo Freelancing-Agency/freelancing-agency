@@ -2,8 +2,8 @@ import SidebarLink from "@/components/Docs/SidebarLink";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Docs Page - Solid SaaS Boilerplate",
-  description: "This is Docs page for Solid Pro",
+  title: "About Us",
+  description: "This is About Us apge for Opemic",
   // other metadata
 };
 
@@ -23,14 +23,23 @@ export default function DocsPage() {
 
             <div className="w-full px-4 lg:w-3/4">
               <div className="blog-details blog-details-docs shadow-three dark:bg-gray-dark rounded-sm bg-white px-8 py-11 sm:p-[55px] lg:mb-5 lg:px-8 xl:p-[55px]">
-                <h1>Welcome to About us</h1>
+                <h1>About Us</h1>
 
                 <p className="text-body-color dark:text-body-color-dark text-base">
-                  This document serves as a simple template to showcase a sample
-                  layout and format. It is solely created for demonstration
-                  purposes and is not intended for any official use.
+                  Opemic is a passionate team of experienced freelancers dedicated to empowering small businesses and startups with cutting-edge digital solutions. We understand the unique challenges faced by emerging companies, and we're here to bridge the gap between your vision and reality.
                 </p>
-                <p className="text-body-color dark:text-body-color-dark text-base">
+
+                <ul style={{ listStyleType: 'disc'}}>
+                  <li>Our team consists of web developers, mobile app developers (iOS & Android), cloud implementation experts, and AI specialists.</li>
+                  <li>We've honed our skills across 50+ real-world projects, successfully delivering on 10+ client projects and attracting a global audience of over 25,000 visitors.</li>
+                </ul>
+
+                <p>
+                  In short, Opemic is your one-stop shop for all your digital needs. We believe in open communication, collaborate closely with you, and deliver high-caliber solutions at competitive rates.
+                </p>
+
+
+                {/* <p className="text-body-color dark:text-body-color-dark text-base">
                   Please visit:{" "}
                   <b>
                     <a href="https://nextjstemplates.com/docs">
@@ -39,7 +48,7 @@ export default function DocsPage() {
                   </b>{" "}
                   to check out the real docs, setup guide and even video
                   instructions
-                </p>
+                </p> */}
               </div>
             </div>
           </div>
@@ -48,3 +57,5 @@ export default function DocsPage() {
     </>
   );
 }
+
+
