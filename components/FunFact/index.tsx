@@ -108,7 +108,7 @@ const FunFact = () => {
               <h3 className="mb-2.5 text-3xl font-bold text-black dark:text-white xl:text-sectiontitle3">
                 10+
               </h3>
-              <p className="text-lg lg:text-para2">Client Projects</p>
+              <p className="text-lg lg:text-para2">Clients</p>
             </motion.div>
             <motion.div
               variants={{
