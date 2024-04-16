@@ -2,8 +2,9 @@ import SidebarLink from "@/components/Docs/SidebarLink";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "About Us",
-  description: "This is About Us apge for Opemic",
+  title: "about",
+  description: "This is About page of Opemic.",
+  icons: "/images/favicon.ico",
   // other metadata
 };
 

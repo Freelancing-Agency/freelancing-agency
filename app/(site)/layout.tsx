@@ -10,6 +10,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 import ToasterContext from "../context/ToastContext";
 
+
 export default function RootLayout({
   children,
 }: {
@@ -17,6 +18,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" suppressHydrationWarning>
+      <head>
+
+      </head>
       <body className={`dark:bg-black ${inter.className}`}>
         <ToasterContext />
         <ThemeProvider

@@ -46,7 +46,7 @@ const Footer = () => {
                 </a>
 
                 <p className="mb-10 mt-5">
-                We provide services related to Web, App, cloud and AI
+                  We provide services related to Web, App, cloud and AI
                 </p>
 
                 <p className="mb-1.5 text-sectiontitle uppercase tracking-[5px]">
@@ -97,7 +97,7 @@ const Footer = () => {
                         href="/about"
                         className="mb-3 inline-block hover:text-primary"
                       >
-                       About Us
+                        About Us
                       </a>
                     </li>
                     <li>
@@ -160,7 +160,7 @@ const Footer = () => {
                     </li>
                     <li>
                       <a
-                        href="/blog"
+                        href="https://blog.opemic.com/"
                         className="mb-3 inline-block hover:text-primary"
                       >
                         Our Blog
@@ -266,7 +266,7 @@ const Footer = () => {
               <ul className="flex items-center gap-8">
                 <li>
                   <a href="/contact" className="hover:text-primary">
-                  Support
+                    Support
                   </a>
                 </li>
                 <li>
@@ -373,7 +373,11 @@ const Footer = () => {
                   </a>
                 </li>
                 <li>
-                  <a target="_blank" href="https://www.linkedin.com/company/opemic/?viewAsMember=true" aria-label="social icon">
+                  <a
+                    target="_blank"
+                    href="https://www.linkedin.com/company/opemic/?viewAsMember=true"
+                    aria-label="social icon"
+                  >
                     <svg
                       className="fill-[#D1D8E0] transition-all duration-300 hover:fill-primary"
                       width="24"
@@ -427,4 +431,3 @@ const Footer = () => {
 };
 
 export default Footer;
-

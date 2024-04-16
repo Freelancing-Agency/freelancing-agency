@@ -3,11 +3,11 @@ import BlogItem from "@/components/Blog/BlogItem";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Blog Page - Solid SaaS Boilerplate",
-  description: "This is Blog page for Solid Pro",
+  title: "blog",
+  description: "blog",
+  icons: "/images/favicon.ico",
   // other metadata
 };
-
 const BlogPage = async () => {
   return (
     <>

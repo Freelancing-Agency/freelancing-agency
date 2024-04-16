@@ -3,9 +3,9 @@ import Contact from "@/components/Contact";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Support Page - Opemic",
-  description: "This is Support page for Opemic",
-  // other metadata
+  title: "Contact",
+  description: "Contact us now!",
+  icons: "/images/favicon.ico",
 };
 
 const SupportPage = () => {
