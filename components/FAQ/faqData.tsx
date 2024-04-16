@@ -3,7 +3,7 @@ import { FAQ } from "@/types/faq";
 const faqData: FAQ[] = [
   {
     id: 1,
-    quest: "What services does your agency offer?",
+    quest: "What services does Opemic offer?",
     ans: "We offer a range of services to help businesses with their digital needs, including website and app development, AI integration, and cloud solutions."
   },
   {
@@ -13,7 +13,7 @@ const faqData: FAQ[] = [
   },
   {
     id: 3,
-    quest: "How do I communicate with my assigned freelancer?",
+    quest: "How do I communicate with the team?",
     ans: "We use a dedicated project management platform that facilitates communication, file sharing, and milestone tracking.",
   },
   {

@@ -25,7 +25,7 @@ export default function Home() {
       <Hero />
       {/* <Brands /> */}
       <Feature />
-      <Projects/>
+      <Projects />
       <About />
       <FeaturesTab />
       <FunFact />

@@ -14,7 +14,7 @@ import { ProjectsData } from "./ProjectData";
 const Projects = () => {
   return (
     <>
-      <section>
+      <section id="projects">
         <div className="mx-auto max-w-c-1315 px-4 md:px-8 xl:px-0">
           {/* <!-- Section Title Start --> */}
           <div className="animate_top mx-auto text-center">

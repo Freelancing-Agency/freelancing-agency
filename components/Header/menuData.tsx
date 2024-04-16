@@ -56,7 +56,7 @@ const menuData: Menu[] = [
     id: 3,
     title: "Projects",
     newTab: false,
-    path:"/#projects"
+    path:"#projects"
     // submenu: [
     //   {
     //     id: 31,
