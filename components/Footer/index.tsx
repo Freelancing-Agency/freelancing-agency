@@ -325,7 +325,7 @@ const Footer = () => {
             >
               <ul className="flex items-center gap-5">
                 <li>
-                  <a href="#" aria-label="social icon">
+                  <a target="_blank" href="https://www.facebook.com/profile.php?id=61558199323245" aria-label="social icon">
                     <svg
                       className="fill-[#D1D8E0] transition-all duration-300 hover:fill-primary"
                       width="24"
@@ -401,7 +401,7 @@ const Footer = () => {
                   </a>
                 </li>
                 <li>
-                  <a href="#" aria-label="social icon">
+                  <a target="_blank" href="https://www.instagram.com/opemic_inc/" aria-label="social icon">
                     <svg
                       className="fill-[#D1D8E0] transition-all duration-300 hover:fill-primary"
                       width="24"
@@ -431,3 +431,4 @@ const Footer = () => {
 };
 
 export default Footer;
+
