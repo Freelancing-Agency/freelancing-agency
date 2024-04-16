@@ -1,7 +1,8 @@
+import { Projects } from "@/types/projects";
 import { Testimonial } from "@/types/testimonial";
 import Image from "next/image";
 
-const SingleProject = ({ review }: { review: Testimonial }) => {
+const SingleProject = ({ review }: { review: Projects }) => {
   const { name, designation, image, content } = review;
   return (
     <div className="rounded-lg bg-white p-6 pt-7 shadow-solid-9 dark:border dark:border-strokedark dark:bg-blacksection dark:shadow-none">
