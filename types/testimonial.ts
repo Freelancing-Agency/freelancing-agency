@@ -4,5 +4,7 @@ export type Testimonial = {
   destination?: string;
   image: any;
   content: string;
+  rating : string;
   designation: string;
 };
+

@@ -1,38 +1,49 @@
-import image1 from "@/public/images/user/user-01.png";
-import image2 from "@/public/images/user/user-02.png";
+import image1 from "@/public/images/user/one.png";
+import image2 from "@/public/images/user/two.png";
+import image3 from  "@/public/images/user/newlogo.png"
+import image4 from "@/public/images/user/sggs.png"
+
+
 import { Testimonial } from "@/types/testimonial";
 
 export const testimonialData: Testimonial[] = [
   {
     id: 1,
-    name: "Devid Smith",
-    designation: "Founter @democompany",
+    name: "Rahul Kalel",
+    designation: "Founder , RK International",
     image: image1,
     content:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris hendrerit, ligula sit amet cursus tincidunt, lorem sem elementum nisi, convallis fringilla ante nibh non urna.",
+      "They developed a top-notch website for my dairy and cattle feed products import-export business. The team maintained excellent cooperation throughout the project, delivering outstanding results. Highly recommended!",
+    rating: "⭐⭐⭐⭐⭐",
   },
   {
     id: 2,
-    name: "Jhon Abraham",
-    designation: "Founter @democompany",
+    name: "SWAG",
+    designation: "Developer Club , SGGS",
     image: image2,
     content:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris hendrerit, ligula sit amet cursus tincidunt, lorem sem elementum nisi, convallis fringilla ante nibh non urna.",
+      "They crafted a dynamic website that serves as the central hub for managing our college events. The team's expertise and dedication ensured a seamless development process and a stellar final product. Thank you for your outstanding support!",
+    rating: "⭐⭐⭐⭐⭐",
   },
   {
     id: 3,
-    name: "Devid Smith",
-    designation: "Founter @democompany",
+    name: "Zafar S",
+    designation: "Founder , StockNeuro",
     image: image1,
     content:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris hendrerit, ligula sit amet cursus tincidunt, lorem sem elementum nisi, convallis fringilla ante nibh non urna.",
+      "Their team skillfully developed our stockmarket website. Their dedication and attention to detail ensured a smooth development process, resulting in a website that exceeded our expectations. We're thrilled with the outcome and grateful for their expertise!",
+    rating: "⭐⭐⭐⭐⭐",
   },
   {
     id: 4,
-    name: "Jhon Abraham",
-    designation: "Founter @democompany",
+    name: "SGGS",
+    designation: "Engineering College , Nanded",
     image: image2,
     content:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris hendrerit, ligula sit amet cursus tincidunt, lorem sem elementum nisi, convallis fringilla ante nibh non urna.",
+      "Thanks to Opemic, SGGS College of Engineering, Nanded now boasts an efficient leave management system tailored to our needs. Their expertise ensured a smooth development process, and we're thrilled with the results. Highly recommend their exceptional service!",
+    rating: "⭐⭐⭐⭐⭐",
   },
 ];
+
+
+

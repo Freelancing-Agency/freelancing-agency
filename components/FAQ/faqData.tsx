@@ -3,19 +3,30 @@ import { FAQ } from "@/types/faq";
 const faqData: FAQ[] = [
   {
     id: 1,
-    quest: "Lorem ipsum dolor sit amet, consectetur",
-    ans: "We provide digital experience services to startups and small businesses. We help our clients succeed by creating brand identities, digital experiences.",
+    quest: "What services does your agency offer?",
+    ans: "We offer a range of services to help businesses with their digital needs, including website and app development, AI integration, and cloud solutions."
   },
   {
     id: 2,
-    quest: "Lorem ipsum dolor sit amet, consectetur",
-    ans: "We provide digital experience services to startups and small businesses. We help our clients succeed by creating brand identities, digital experiences.",
+    quest: "How do I get started with a project?",
+    ans: "Contact us through our website or phone to schedule a free consultation. During this call, we will discuss your needs and provide a customized project proposal.",
   },
   {
     id: 3,
-    quest: "Lorem ipsum dolor sit amet, consectetur",
-    ans: "We provide digital experience services to startups and small businesses. We help our clients succeed by creating brand identities, digital experiences.",
+    quest: "How do I communicate with my assigned freelancer?",
+    ans: "We use a dedicated project management platform that facilitates communication, file sharing, and milestone tracking.",
   },
+  {
+    id: 4,
+    quest: "What is your typical project timeline?",
+    ans: "Timelines vary depending on project complexity. We will provide a detailed timeline during the initial consultation stage.",
+  },
+  {
+    id : 5,
+    quest : "What is your pricing structure?",
+    ans : "We offer flexible pricing models to suit your budget. We can discuss hourly rates, fixed project fees, or retainer agreements based on your specific needs."
+  }
 ];
 
 export default faqData;
+
