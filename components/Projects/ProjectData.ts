@@ -5,9 +5,9 @@ import p4 from "../../public/images/projects/p4.png"
 import p5 from "../../public/images/projects/p5.png"
 import p6 from "../../public/images/projects/p6.png"
 
-import { Testimonial } from "@/types/testimonial";
+import { Projects } from "@/types/projects";
 
-export const ProjectsData: Testimonial[] = [
+export const ProjectsData: Projects[] = [
   {
     id: 1,
     name: "RK INTERNATIONAL",
