@@ -55,98 +55,95 @@ export default function Privacy() {
                 <p>For the purposes of this Privacy Policy:</p>
                 <ul>
                   <li>
-                    <p>
-                      <strong>Account</strong> means a unique account created
-                      for You to access our Service or parts of our Service.
-                    </p>
+                    <strong>Account</strong> means a unique account created
+                    for You to access our Service or parts of our Service.
                   </li>
                   <li>
-                    <p>
-                      <strong>Affiliate</strong> means an entity that controls,
-                      is controlled by or is under common control with a party,
-                      where &quot;control&quot; means ownership of 50% or more
-                      of the shares, equity interest or other securities
-                      entitled to vote for election of directors or other
-                      managing authority.
-                    </p>
+                    <strong>Affiliate</strong> means an entity that controls,
+                    is controlled by or is under common control with a party,
+                    where &quot;control&quot; means ownership of 50% or more
+                    of the shares, equity interest or other securities
+                    entitled to vote for election of directors or other
+                    managing authority.
+
                   </li>
                   <li>
-                    <p>
-                      <strong>Company</strong> (referred to as either &quot;the
-                      Company&quot;, &quot;We&quot;, &quot;Us&quot; or
-                      &quot;Our&quot; in this Agreement) refers to opemic inc,
-                      pune 411001.
-                    </p>
+
+                    <strong>Company</strong> (referred to as either &quot;the
+                    Company&quot;, &quot;We&quot;, &quot;Us&quot; or
+                    &quot;Our&quot; in this Agreement) refers to opemic inc,
+                    pune 411001.
+
                   </li>
                   <li>
-                    <p>
-                      <strong>Cookies</strong> are small files that are placed
-                      on Your computer, mobile device or any other device by a
-                      website, containing the details of Your browsing history
-                      on that website among its many uses.
-                    </p>
+
+                    <strong>Cookies</strong> are small files that are placed
+                    on Your computer, mobile device or any other device by a
+                    website, containing the details of Your browsing history
+                    on that website among its many uses.
+
                   </li>
                   <li>
-                    <p>
-                      <strong>Country</strong> refers to: Maharashtra, India
-                    </p>
+
+                    <strong>Country</strong> refers to: Maharashtra, India
+
                   </li>
                   <li>
-                    <p>
-                      <strong>Device</strong> means any device that can access
-                      the Service such as a computer, a cellphone or a digital
-                      tablet.
-                    </p>
+
+                    <strong>Device</strong> means any device that can access
+                    the Service such as a computer, a cellphone or a digital
+                    tablet.
+
                   </li>
                   <li>
-                    <p>
-                      <strong>Personal Data</strong> is any information that
-                      relates to an identified or identifiable individual.
-                    </p>
+
+                    <strong>Personal Data</strong> is any information that
+                    relates to an identified or identifiable individual.
+
                   </li>
                   <li>
-                    <p>
-                      <strong>Service</strong> refers to the Website.
-                    </p>
+
+                    <strong>Service</strong> refers to the Website.
+
                   </li>
                   <li>
-                    <p>
-                      <strong>Service Provider</strong> means any natural or
-                      legal person who processes the data on behalf of the
-                      Company. It refers to third-party companies or individuals
-                      employed by the Company to facilitate the Service, to
-                      provide the Service on behalf of the Company, to perform
-                      services related to the Service or to assist the Company
-                      in analyzing how the Service is used.
-                    </p>
+
+                    <strong>Service Provider</strong> means any natural or
+                    legal person who processes the data on behalf of the
+                    Company. It refers to third-party companies or individuals
+                    employed by the Company to facilitate the Service, to
+                    provide the Service on behalf of the Company, to perform
+                    services related to the Service or to assist the Company
+                    in analyzing how the Service is used.
+
                   </li>
                   <li>
-                    <p>
-                      <strong>Usage Data</strong> refers to data collected
-                      automatically, either generated by the use of the Service
-                      or from the Service infrastructure itself (for example,
-                      the duration of a page visit).
-                    </p>
+
+                    <strong>Usage Data</strong> refers to data collected
+                    automatically, either generated by the use of the Service
+                    or from the Service infrastructure itself (for example,
+                    the duration of a page visit).
+
                   </li>
                   <li>
-                    <p>
-                      <strong>Website</strong> refers to opemic, accessible from{" "}
-                      <a
-                        href="https://www.opemic.com/"
-                        rel="external nofollow noopener"
-                        target="_blank"
-                      >
-                        https://www.opemic.com/
-                      </a>
-                    </p>
+
+                    <strong>Website</strong> refers to opemic, accessible from{" "}
+                    <a
+                      href="https://www.opemic.com/"
+                      rel="external nofollow noopener"
+                      target="_blank"
+                    >
+                      https://www.opemic.com/
+                    </a>
+
                   </li>
                   <li>
-                    <p>
-                      <strong>You</strong> means the individual accessing or
-                      using the Service, or the company, or other legal entity
-                      on behalf of which such individual is accessing or using
-                      the Service, as applicable.
-                    </p>
+
+                    <strong>You</strong> means the individual accessing or
+                    using the Service, or the company, or other legal entity
+                    on behalf of which such individual is accessing or using
+                    the Service, as applicable.
+
                   </li>
                 </ul>
                 <h2>Collecting and Using Your Personal Data</h2>
@@ -160,19 +157,19 @@ export default function Privacy() {
                 </p>
                 <ul>
                   <li>
-                    <p>Email address</p>
+                    Email address
                   </li>
                   <li>
-                    <p>First name and last name</p>
+                    First name and last name
                   </li>
                   <li>
-                    <p>Phone number</p>
+                    Phone number
                   </li>
                   <li>
-                    <p>Address, State, Province, ZIP/Postal code, City</p>
+                    Address, State, Province, ZIP/Postal code, City
                   </li>
                   <li>
-                    <p>Usage Data</p>
+                    Usage Data
                   </li>
                 </ul>
                 <h4>Usage Data</h4>
@@ -248,49 +245,48 @@ export default function Privacy() {
                 </p>
                 <ul>
                   <li>
-                    <p>
-                      <strong>Necessary / Essential Cookies</strong>
-                    </p>
-                    <p>Type: Session Cookies</p>
-                    <p>Administered by: Us</p>
-                    <p>
-                      Purpose: These Cookies are essential to provide You with
-                      services available through the Website and to enable You
-                      to use some of its features. They help to authenticate
-                      users and prevent fraudulent use of user accounts. Without
-                      these Cookies, the services that You have asked for cannot
-                      be provided, and We only use these Cookies to provide You
-                      with those services.
-                    </p>
+                    <strong>Necessary / Essential Cookies</strong>
                   </li>
+                  <p>Type: Session Cookies</p>
+                  <p>Administered by: Us</p>
+                  <p>
+                    Purpose: These Cookies are essential to provide You with
+                    services available through the Website and to enable You
+                    to use some of its features. They help to authenticate
+                    users and prevent fraudulent use of user accounts. Without
+                    these Cookies, the services that You have asked for cannot
+                    be provided, and We only use these Cookies to provide You
+                    with those services.
+                  </p>
+
                   <li>
-                    <p>
-                      <strong>
-                        Cookies Policy / Notice Acceptance Cookies
-                      </strong>
-                    </p>
-                    <p>Type: Persistent Cookies</p>
-                    <p>Administered by: Us</p>
-                    <p>
-                      Purpose: These Cookies identify if users have accepted the
-                      use of cookies on the Website.
-                    </p>
+
+                    <strong>
+                      Cookies Policy / Notice Acceptance Cookies
+                    </strong>
                   </li>
+                  <p>Type: Persistent Cookies</p>
+                  <p>Administered by: Us</p>
+                  <p>
+                    Purpose: These Cookies identify if users have accepted the
+                    use of cookies on the Website.
+                  </p>
+
                   <li>
-                    <p>
-                      <strong>Functionality Cookies</strong>
-                    </p>
-                    <p>Type: Persistent Cookies</p>
-                    <p>Administered by: Us</p>
-                    <p>
-                      Purpose: These Cookies allow us to remember choices You
-                      make when You use the Website, such as remembering your
-                      login details or language preference. The purpose of these
-                      Cookies is to provide You with a more personal experience
-                      and to avoid You having to re-enter your preferences every
-                      time You use the Website.
-                    </p>
+
+                    <strong>Functionality Cookies</strong>
                   </li>
+                  <p>Type: Persistent Cookies</p>
+                  <p>Administered by: Us</p>
+                  <p>
+                    Purpose: These Cookies allow us to remember choices You
+                    make when You use the Website, such as remembering your
+                    login details or language preference. The purpose of these
+                    Cookies is to provide You with a more personal experience
+                    and to avoid You having to re-enter your preferences every
+                    time You use the Website.
+                  </p>
+
                 </ul>
                 <p>
                   For more information about the cookies we use and your choices
@@ -303,75 +299,75 @@ export default function Privacy() {
                 </p>
                 <ul>
                   <li>
-                    <p>
-                      <strong>To provide and maintain our Service</strong>,
-                      including to monitor the usage of our Service.
-                    </p>
+
+                    <strong>To provide and maintain our Service</strong>,
+                    including to monitor the usage of our Service.
+
                   </li>
                   <li>
-                    <p>
-                      <strong>To manage Your Account:</strong> to manage Your
-                      registration as a user of the Service. The Personal Data
-                      You provide can give You access to different
-                      functionalities of the Service that are available to You
-                      as a registered user.
-                    </p>
+
+                    <strong>To manage Your Account:</strong> to manage Your
+                    registration as a user of the Service. The Personal Data
+                    You provide can give You access to different
+                    functionalities of the Service that are available to You
+                    as a registered user.
+
                   </li>
                   <li>
-                    <p>
-                      <strong>For the performance of a contract:</strong> the
-                      development, compliance and undertaking of the purchase
-                      contract for the products, items or services You have
-                      purchased or of any other contract with Us through the
-                      Service.
-                    </p>
+
+                    <strong>For the performance of a contract:</strong> the
+                    development, compliance and undertaking of the purchase
+                    contract for the products, items or services You have
+                    purchased or of any other contract with Us through the
+                    Service.
+
                   </li>
                   <li>
-                    <p>
-                      <strong>To contact You:</strong> To contact You by email,
-                      telephone calls, SMS, or other equivalent forms of
-                      electronic communication, such as a mobile application's
-                      push notifications regarding updates or informative
-                      communications related to the functionalities, products or
-                      contracted services, including the security updates, when
-                      necessary or reasonable for their implementation.
-                    </p>
+
+                    <strong>To contact You:</strong> To contact You by email,
+                    telephone calls, SMS, or other equivalent forms of
+                    electronic communication, such as a mobile application's
+                    push notifications regarding updates or informative
+                    communications related to the functionalities, products or
+                    contracted services, including the security updates, when
+                    necessary or reasonable for their implementation.
+
                   </li>
                   <li>
-                    <p>
-                      <strong>To provide You</strong> with news, special offers
-                      and general information about other goods, services and
-                      events which we offer that are similar to those that you
-                      have already purchased or enquired about unless You have
-                      opted not to receive such information.
-                    </p>
+
+                    <strong>To provide You</strong> with news, special offers
+                    and general information about other goods, services and
+                    events which we offer that are similar to those that you
+                    have already purchased or enquired about unless You have
+                    opted not to receive such information.
+
                   </li>
                   <li>
-                    <p>
-                      <strong>To manage Your requests:</strong> To attend and
-                      manage Your requests to Us.
-                    </p>
+
+                    <strong>To manage Your requests:</strong> To attend and
+                    manage Your requests to Us.
+
                   </li>
                   <li>
-                    <p>
-                      <strong>For business transfers:</strong> We may use Your
-                      information to evaluate or conduct a merger, divestiture,
-                      restructuring, reorganization, dissolution, or other sale
-                      or transfer of some or all of Our assets, whether as a
-                      going concern or as part of bankruptcy, liquidation, or
-                      similar proceeding, in which Personal Data held by Us
-                      about our Service users is among the assets transferred.
-                    </p>
+
+                    <strong>For business transfers:</strong> We may use Your
+                    information to evaluate or conduct a merger, divestiture,
+                    restructuring, reorganization, dissolution, or other sale
+                    or transfer of some or all of Our assets, whether as a
+                    going concern or as part of bankruptcy, liquidation, or
+                    similar proceeding, in which Personal Data held by Us
+                    about our Service users is among the assets transferred.
+
                   </li>
                   <li>
-                    <p>
-                      <strong>For other purposes</strong>: We may use Your
-                      information for other purposes, such as data analysis,
-                      identifying usage trends, determining the effectiveness of
-                      our promotional campaigns and to evaluate and improve our
-                      Service, products, services, marketing and your
-                      experience.
-                    </p>
+
+                    <strong>For other purposes</strong>: We may use Your
+                    information for other purposes, such as data analysis,
+                    identifying usage trends, determining the effectiveness of
+                    our promotional campaigns and to evaluate and improve our
+                    Service, products, services, marketing and your
+                    experience.
+
                   </li>
                 </ul>
                 <p>
