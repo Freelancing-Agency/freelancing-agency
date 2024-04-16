@@ -349,7 +349,7 @@ const Footer = () => {
                   </a>
                 </li>
                 <li>
-                  <a href="#" aria-label="social icon">
+                  <a href="https://twitter.com/opemic_inc" target="_blank" aria-label="social icon">
                     <svg
                       className="fill-[#D1D8E0] transition-all duration-300 hover:fill-primary"
                       width="24"
@@ -375,7 +375,7 @@ const Footer = () => {
                 <li>
                   <a
                     target="_blank"
-                    href="https://www.linkedin.com/company/opemic/?viewAsMember=true"
+                    href="https://www.linkedin.com/company/opemic/"
                     aria-label="social icon"
                   >
                     <svg
