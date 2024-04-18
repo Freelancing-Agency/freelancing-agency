@@ -19,8 +19,8 @@ const Hero = () => {
               Empower Your Business with Expert Software Solutions
               </h4>
               <h3 className="mb-5 pr-16 text-4xl font-bold text-black dark:text-white xl:text-hero">
-                Digitalize ⚡ your Business with Advance Solutions.{"   "}
-                {/* <span className="relative inline-block before:absolute before:bottom-2.5 before:left-0 before:-z-1 before:h-3 before:w-full before:bg-titlebg dark:before:bg-titlebgdark ">
+                Digitalize ⚡ your Business with Advance Solutions.{" "}
+                {/* <span className="relative inline-block before:absolute before:bottom-2.5 before:left-0 before:-z-1 before:h-3 before:w-full before:bg-titlebg dark:before:bg-titlebgdark ">  
                 </span> */}
               </h3>
 
