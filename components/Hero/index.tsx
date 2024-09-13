@@ -1,6 +1,7 @@
 "use client";
 import Image from "next/image";
 import { useState } from "react";
+import Link from "next/link";
 
 const Hero = () => {
   const [email, setEmail] = useState("");
@@ -16,7 +17,7 @@ const Hero = () => {
           <div className="flex lg:items-center lg:gap-8 xl:gap-32.5">
             <div className=" md:w-1/2">
               <h4 className="mb-4.5 text-lg font-medium text-black dark:text-white">
-              Empower Your Business with Expert Software Solutions
+                Empower Your Business with Expert Software Solutions
               </h4>
               <h3 className="mb-5 pr-16 text-4xl font-bold text-black dark:text-white xl:text-hero">
                 Digitalize ⚡ your Business with Advance Solutions.{" "}
@@ -24,9 +25,7 @@ const Hero = () => {
                 </span> */}
               </h3>
 
-              <p>
-              We provide services related to Web, App, cloud and AI
-              </p>
+              <p>We provide services related to Web, App, cloud and AI</p>
               {/* <p>
                 Need a powerful website, secure app, or something in between?
                 We've got you covered. Our expert freelance developers build best-in-class web and mobile solutions,
@@ -45,16 +44,18 @@ const Hero = () => {
                       placeholder="Enter your email address"
                       className="rounded-full border border-stroke px-6 py-2.5 shadow-solid-2 focus:border-primary focus:outline-none dark:border-strokedark dark:bg-black dark:shadow-none dark:focus:border-primary"
                     /> */}
-                    <button
-                      aria-label="get started button"
-                      className="flex rounded-full bg-black px-7.5 py-2.5 text-white duration-300 ease-in-out hover:bg-blackho dark:bg-btndark dark:hover:bg-blackho"
-                    >
-                      Contact Us
-                    </button>
+                      <Link
+                        href="/contact"
+                        // className="flex items-center justify-center rounded-full bg-primary px-7.5 py-2.5 text-regular text-white duration-300 ease-in-out hover:bg-primaryho"
+                        className="flex rounded-full bg-black px-7.5 py-2.5 text-white duration-300 ease-in-out hover:bg-blackho dark:bg-btndark dark:hover:bg-blackho"
+                      >
+                        Contact Us
+                      </Link>
                   </div>
                 </form>
               </div>
             </div>
+
 
             <div className="animate_right hidden md:w-1/2 lg:block">
               <div className="relative 2xl:-mr-7.5">
@@ -80,7 +81,6 @@ const Hero = () => {
                   className="absolute -right-6.5 bottom-0 z-1"
                 /> */}
 
-
                 <div className=" relative aspect-[700/444] w-full">
                   {/* <Image
                     className="shadow-solid-l dark:hidden"
@@ -105,4 +105,3 @@ const Hero = () => {
 };
 
 export default Hero;
-

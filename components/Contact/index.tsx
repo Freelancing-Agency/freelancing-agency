@@ -230,14 +230,14 @@ const onSubmit = async (data: FormValues) => {
                   <a href="mailto:contact@opemic.com">contact@opemic.com</a>
                 </p>
               </div>
-              <div>
+              {/* <div>
                 <h4 className="mb-4 text-metatitle3 font-medium text-black dark:text-white">
                   Phone Number
                 </h4>
                 <p>
                   <a href="#">+91 42336 34383</a>
                 </p>
-              </div>
+              </div> */}
             </motion.div>
           </div>
         </div>
